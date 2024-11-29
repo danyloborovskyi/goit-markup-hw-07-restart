@@ -1,20 +1,20 @@
 @import './utils/variables';
 @import './utils/base';
 
-@import './components/container';
+@import './components/portfolio/container';
+
+@import './components/section';
 // Header
 @import './components/header';
 
 // Webstudio 
-@import './components/webstudio/backdrop';
-@import './components/webstudio/clients';
-@import './components/webstudio/employee';
-@import './components/webstudio/hero';
-@import './components/webstudio/our-benefits';
-@import './components/webstudio/what-do-we-do';
+@import './components/backdrop';
+@import './components/clients';
+@import './components/employee';
+@import './components/hero';
+@import './components/our-benefits';
+@import './components/what-do-we-do';
 // Portfolio
-@import './components/portfolio/portfolio';
+@import './components/portfolio';
 // Footer
 @import './components/footer';
-
-
