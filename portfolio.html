@@ -14,25 +14,27 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:ital,wght@0,400;0,500;0,700;0,900;1,100&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="./CSS/styles.css" />
+    <link rel="stylesheet" href="./CSS/main.min.css" />
     <title>Portfolio</title>
   </head>
   <body>
-    <header>
-      <div class="container header">
+    <header class="header">
+      <div class="container container--header">
         <nav class="navigation">
-          <ul class="navigation-list">
-            <li class="logo">
-              <a href="index.html" class="logo-link"><span class="logo-web">Web</span>Studio</a>
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a href="index.html" class="logo"><span class="logo__web">Web</span>Studio</a>
             </li>
-            <li class="navigation-item">
-              <a href="index.html" class="navigation-link">Студія</a>
+            <li class="navigation__item">
+              <a href="index.html" class="navigation__link">Студія</a>
             </li>
-            <li class="navigation-item">
-              <a href="portfolio.html" class="navigation-link active">Портфоліо</a>
+            <li class="navigation__item">
+              <a href="portfolio.html" class="navigation__link navigation__link--active"
+                >Портфоліо</a
+              >
             </li>
-            <li class="navigation-item">
-              <a href="test.html" class="navigation-link">Контакти</a>
+            <li class="navigation__item">
+              <a href="test.html" class="navigation__link">Контакти</a>
             </li>
           </ul>
         </nav>
@@ -230,7 +232,9 @@
     <footer>
       <div class="container footer">
         <div class="footer-contacts">
-          <a href="index.html" class="logo-link"><span class="logo-web">Web</span>Studio</a>
+          <a href="index.html" class="logo logo--footer"
+            ><span class="logo__web">Web</span>Studio</a
+          >
           <address>
             <ul>
               <li class="contacts-item-footer">

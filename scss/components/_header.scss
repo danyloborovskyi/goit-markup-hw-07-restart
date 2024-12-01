@@ -1,69 +1,54 @@
-.logo {
-    margin-right: 93px;
-}
-
-.logo-link {
-    display: block;
-    font-family: raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    color: black;
-    padding-top: 24px;
-    padding-bottom: 24px;
-    letter-spacing: 0.03em;
-}
-
-.logo-web {
-    color: var(--secondary-color);
-}
-
-header {
+.header {
     border-bottom: 1px solid rgba(236, 236, 236, 1);
 }
 
-.container.header {
+.container--header {
     display: flex;
     align-items: center;
 }
 
-.navigation-list {
+.navigation__list {
     display: flex;
     list-style: none;
     align-items: center;
 }
 
-.navigation-item {
+.navigation__item {
     margin-right: 50px;
     padding-bottom: 31px;
     padding-top: 32px;
     position: relative;
 }
 
-.navigation-item:last-child {
+.navigation__item:first-child {
+    margin-right: 93px;
+    padding: 0;
+}
+
+.navigation__item:last-child {
     margin-right: 0;
 }
 
-.navigation-link {
+.navigation__link {
     display: block;
     color: var(--main-color);
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: color var(--function);
 }
 
-.navigation-link:hover,
-.navigation-link:focus {
+.navigation__link:hover,
+.navigation__link:focus {
     color: var(--secondary-color);
 }
 
-.active {
+.navigation__link--active {
     color: var(--secondary-color);
 }
 
-.active::before {
+.navigation__link--active::before {
     position: absolute;
     width: 100%;
     height: 4px;
@@ -77,22 +62,22 @@ header {
     margin-left: 318px;
 }
 
-.contacts-list {
+.contacts__list {
     display: flex;
     margin: 0;
     list-style: none;
     padding: 0;
 }
 
-.contacts-item {
+.contacts__item {
     margin-right: 30px;
 }
 
-.contacts-item:last-child {
+.contacts__item:last-child {
     margin-right: 0;
 }
 
-.contacts-link {
+.contacts__link {
     color: var(--description-color);
     font-style: normal;
     font-size: 14px;
@@ -101,19 +86,19 @@ header {
     letter-spacing: 0.02em;
     display: flex;
     align-items: center;
-    transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: color var(--function);
 }
 
-.contacts-icon {
+.contacts__icon {
     fill: var(--description-color);
     margin-right: 10px;
-    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
+    transition: fill var(--function);
 }
 
-.contacts-link:hover,
-.contacts-link:focus,
-.contacts-link:hover .contacts-icon,
-.contacts-link:focus .contacts-icon {
+.contacts__link:hover,
+.contacts__link:focus,
+.contacts__link:hover .contacts__icon,
+.contacts__link:focus .contacts__icon {
     color: var(--secondary-color);
     fill: var(--secondary-color);
 }

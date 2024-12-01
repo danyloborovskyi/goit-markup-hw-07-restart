@@ -1,28 +1,22 @@
-footer {
+.footer {
     background-color: #2F303A;
     padding: 60px 0;
 }
 
-footer .logo-link {
-    color: white;
-    padding: 0;
-    margin-bottom: 20px;
-}
-
-.footer {
+.container--footer {
     display: flex;
 }
 
-.contacts-item-footer {
+.footer__item {
     margin-bottom: 9px;
     color: white;
 }
 
-.contacts-item-footer:last-child {
+.footer__item:last-child {
     margin-bottom: 0;
 }
 
-.contacts-link-footer {
+.footer__link {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-size: 14px;
@@ -31,16 +25,16 @@ footer .logo-link {
     transition: color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.contacts-link-footer.location {
+.footer__link--location {
     color: white;
 }
 
-.contacts-link-footer:hover,
-.contacts-link-footer:focus {
+.footer__link:hover,
+.footer__link:focus {
     color: var(--secondary-color);
 }
 
-.footer-social-media {
+.footer__social-media {
     padding-top: 12px;
     margin-left: 70px;
 }
@@ -52,32 +46,6 @@ footer .logo-link {
     color: #FFFFFF;
     letter-spacing: 0.03em;
     margin-bottom: 20px;
-}
-
-.footer-social-media-list {
-    display: flex;
-    gap: 10px;
-}
-
-.footer-social-media-link {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: rgba(255, 255, 255, 0.1);
-    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
-
-.footer-social-media-icon {
-    fill: #FFFFFF;
-}
-
-.footer-social-media-link:hover,
-.footer-social-media-link:focus {
-    background-color: var(--secondary-color);
-    cursor: pointer;
 }
 
 .footer-subscription {
@@ -113,29 +81,6 @@ footer .logo-link {
 
 .subscription-input:focus {
     border-color: var(--secondary-color);
-}
-
-.button-subscribe {
-    width: 200px;
-    font-size: 16px;
-    line-height: 1.875;
-    font-weight: 700;
-    color: white;
-    background-color: var(--secondary-color);
-    letter-spacing: 0.06em;
-    padding: 10px 24px;
-    border-radius: 4px;
-    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.button-subscribe:hover,
-.button-subscribe:focus {
-    background-color: #188CE8;
-    cursor: pointer;
 }
 
 .icon-telegram {

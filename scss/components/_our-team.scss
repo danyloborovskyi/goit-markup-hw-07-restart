@@ -54,32 +54,3 @@
     color: var(--description-color);
     margin-bottom: 16px;
 }
-
-.employee-social-media-list {
-    display: flex;
-}
-
-.employee-social-media-link {
-    width: 44px;
-    height: 44px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
-
-.employee-social-media-icon {
-    fill: #AFB1B8;
-    transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-}
-
-.employee-social-media-link:hover,
-.employee-social-media-link:focus {
-    background-color: var(--secondary-color);
-}
-
-.employee-social-media-link:hover .employee-social-media-icon,
-.employee-social-media-link:focus .employee-social-media-icon {
-    fill: #FFFFFF;
-}
