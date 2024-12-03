@@ -160,26 +160,3 @@
     text-decoration: underline;
     color: var(--secondary-color);
 }
-
-.modal-button-send {
-    display: inline-block;
-    width: 200px;
-    font-size: 16px;
-    line-height: 1.875;
-    font-weight: 700;
-    color: white;
-    background-color: var(--secondary-color);
-    letter-spacing: 0.06em;
-    padding: 10px 24px;
-    border-radius: 4px;
-    transition: background-color cubic-bezier(0.4, 0, 0.2, 1) 250ms;
-    margin-left: 124px;
-    margin-top: 30px;
-    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
-}
-
-.modal-button-send:hover,
-.modal-button-send:focus {
-    background-color: #188CE8;
-    cursor: pointer;
-}

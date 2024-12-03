@@ -5,6 +5,7 @@
 
 .container--footer {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer__item {
@@ -39,7 +40,7 @@
     margin-left: 70px;
 }
 
-.footer-social-media-join {
+.footer__join {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.172;
@@ -48,12 +49,11 @@
     margin-bottom: 20px;
 }
 
-.footer-subscription {
+.subscription {
     padding-top: 12px;
-    margin-left: 93px;
 }
 
-.subscription-title {
+.subscription__title {
     text-transform: uppercase;
     font-size: 14px;
     line-height: 1.172;
@@ -62,11 +62,11 @@
     margin-bottom: 20px;
 }
 
-.subscription-form {
+.subscription__form {
     display: flex;
 }
 
-.subscription-input {
+.subscription__input {
     background-color: transparent;
     height: 50px;
     width: 358px;
@@ -79,10 +79,6 @@
     padding: 15px 16px;
 }
 
-.subscription-input:focus {
+.subscription__input:focus {
     border-color: var(--secondary-color);
-}
-
-.icon-telegram {
-    margin-left: 10px;
 }

@@ -1,4 +1,4 @@
-.clients {
+.clients__title {
     display: flex;
     justify-content: center;
     font-size: 36px;
@@ -7,13 +7,13 @@
     letter-spacing: 0.03em;
 }
 
-.clients-list {
+.clients__list {
     display: flex;
     justify-content: center;
     gap: 30px;
 }
 
-.clients-link {
+.clients__link {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,15 +24,15 @@
     transition: border cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.clients-icon {
+.clients__icon {
     fill: #AFB1B8;
     transition: fill cubic-bezier(0.4, 0, 0.2, 1) 250ms;
 }
 
-.clients-link:hover,
-.clients-link:focus,
-.clients-link:hover .clients-icon,
-.clients-link:focus .clients-icon {
+.clients__link:hover,
+.clients__link:focus,
+.clients__link:hover .clients__icon,
+.clients__link:focus .clients__icon {
     border-color: var(--secondary-color);
     fill: var(--secondary-color);
     cursor: pointer;
