@@ -7,15 +7,16 @@
     padding-top: 24px;
     padding-bottom: 24px;
     letter-spacing: 0.03em;
-}
 
-.logo__web {
-    color: var(--secondary-color);
-}
 
-.logo--footer {
-    display: block;
-    color: white;
-    padding: 0;
-    margin-bottom: 20px;
+    &__web {
+        color: var(--secondary-color);
+    }
+
+    &--footer {
+        display: block;
+        color: white;
+        padding: 0;
+        margin-bottom: 20px;
+    }
 }
